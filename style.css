@@ -1,0 +1,111 @@
+/* NENAUDOJU šitų su lietuviškais rašmeninimis  */
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+/* FIRST TABLE */
+
+.table1 {
+    width: 500px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid #fec106;
+    border-collapse: collapse;
+    
+}
+
+.head1 {
+    border: 2px solid #fec106;
+    border-collapse: collapse;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #fec106;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+    color: white;
+
+}
+
+.table1 td {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #fec106;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    background: #392c6e;
+}
+
+#surname2 {
+    background-color: #e5ae30;
+}
+
+/* SECOND TABLE */
+
+.table2 {
+    width: 700px;
+    margin: 30px auto;
+    border: 3px solid white;
+    border-collapse: collapse;
+    font-family: 'Mate SC', serif;
+    color: white;
+    text-align: left;
+    background-color: #87006f;
+}
+
+.table2 th {
+    padding: 15px;
+    margin: 20px auto;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+.table2 td {
+    border: 3px solid white;
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.table2 td {
+    background-color: #f37ecf;
+}
+.tr2 :nth-of-type(odd) {
+    background-color: #b05593 ;
+}
+ .tr2 :nth-of-type(even) {
+    background-color: #b05593 ;
+}
+
+/* THIRD TABLE */
+
+.table3 {
+    width: 700px;
+    height: 40px;
+    margin: 30px auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.table3 th {
+    border: 2px solid black;
+    font-family: Verdana;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+    color: black; 
+
+}
+.table3 td {
+    font-family: Verdana;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+    color: black; 
+}
+
+.style {
+    font-weight: bolder;
+}
+ .table3 .body3 .three td {
+    color: black;
+}
